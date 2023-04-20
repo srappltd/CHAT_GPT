@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "54025039762",
+    "project_id": "fir-database-send-receive",
+    "storage_bucket": "fir-database-send-receive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54025039762:android:e89809f3be216daf821b4b",
+        "android_client_info": {
+          "package_name": "com.sandhya.firebasedatabasesendandreceive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54025039762-tv23vk4d1cvefkjukjc4lgcf108tsj0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCckWHL-9MvwhqiRA2OeOHEiN8xzRsUxNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54025039762-tv23vk4d1cvefkjukjc4lgcf108tsj0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

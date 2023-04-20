@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="20dp"
+    android:background="@color/white"
+    android:paddingStart="20dp"
+    tools:context=".data.DataSendActivity">
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:scaleType="center"-->
+<!--        android:id="@+id/imgUploadImage"/>-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/imgUploadImage"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_bg"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:id="@+id/edtName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_bg"
+        android:padding="15dp"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:hint="Age"
+        android:id="@+id/edtAge"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_bg"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile"
+        android:inputType="phone"
+        android:id="@+id/edtMobile"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Send"
+        android:id="@+id/btnSend"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Add"
+        android:id="@+id/btnAdd"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
